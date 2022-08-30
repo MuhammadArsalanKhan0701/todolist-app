@@ -1,0 +1,45 @@
+html {
+  background-image: url("/notebook.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed; 
+  background-size: cover;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+input[type=text] {
+  padding: 2px 10px;
+  font-size: 18px;
+}
+
+input[type=text]:focus {
+  border: 3px solid #555;
+}
+
+@media (max-width: 768px) {
+  html {
+    background-attachment: scroll;
+    background-size: auto auto; 
+  }
+
+  input[type=text] {
+    border: 3px solid #555;
+    width: 190px;
+  }
+
+  ul {
+    overflow: auto;
+  }
+  
+  body {
+    font-size: 20px;
+  }
+}

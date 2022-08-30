@@ -1,0 +1,46 @@
+.appTitle {
+  text-align: center;
+  color: rgb(61, 49, 19); 
+  font-size: 70px;
+}
+
+.container {
+  border: 5px solid rgb(114, 26, 26);
+  border-radius: 25px;
+}
+
+.subDiv {
+  padding: 30px;
+  max-width: 500px;
+  margin: auto;
+}            
+            
+.addBtn {
+  background-color: rgb(29, 178, 228);
+  width: 70px;
+  height: 35px; 
+  border-radius: 5px;
+}
+
+.crossBtn {
+  background-color: rgb(121, 52, 63);
+  margin: 20px;
+  width: 60px;
+  height: 25px;
+  border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+  .appTitle {
+    font-size: 35px;
+  }
+
+  .addBtn {
+    width: 60px;
+  }
+
+  .subDiv{
+    padding: 15px;
+  }
+}
+
