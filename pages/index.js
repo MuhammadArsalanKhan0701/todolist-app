@@ -54,7 +54,7 @@ export default function TodoList() {
       <div className={styles.container}>  
         <div className={styles.subDiv}>
 
-        <label for="itemName">Add an Item...</label><br/>
+        <label htmlFor="itemName">Add an Item...</label><br/>
 
         <input 
           id="itemName" 
